@@ -1,6 +1,7 @@
-# SEP-IntroToNodeAndAgentSDK
+# SEP-Docker
 
-Dieses Repository enthält Begleitmaterial zum Workshop vom 15.10.2017, welcher im Rahmen des SEP stattfindet.
+Dieses Repository enthält Begleitmaterial zum Workshop vom 27.10.2017, welcher im Rahmen des SEP stattfindet.
+Dabei handelt es sich um einen Deep Dive in Docker und einem anschließenden Hands-on Lab. Mit Live Demos.
 
 ## Struktur
 
