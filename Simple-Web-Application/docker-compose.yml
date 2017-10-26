@@ -1,0 +1,17 @@
+version: '3.1'
+
+services:
+  node:
+    build:
+      context: .
+      args:
+        - NODE_ENV=development
+        - PORT=80
+    command: yarn debug
+    volumes:
+      - ./:/server
+    ports:
+      - "80:80"
+      - "1337:1337"
+    environment:
+      - NODE_ENV=development

@@ -1,0 +1,18 @@
+{
+    "name": "debug-sample",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "debug": "nodemon --watch . --inspect=0.0.0.0:1337 --nolazy index.js",
+        "docker-debug": "docker-compose up",
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "express": "^4.16.2",
+        "morgan": "^1.9.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.12.1"
+    },
+    "main": "index.js"
+}
