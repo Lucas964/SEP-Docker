@@ -11,5 +11,7 @@ Dabei handelt es sich um einen Deep Dive in Docker und einem anschließenden Han
 
 * Complex-Web-Application ist das offiziele Docker Beispiel Vote-Service, welcher um Voting Bots erweitert wurde.
 
+* Multi-Stage zeigt an einem einfachen Beispiel wie Multi-Stage Dockerfiles aufgebaut sind und wie hoch der größen Unterschied zu einer "klassischen" Dockerfile ist, bei gleicher Codebasis.
+
 
 > Bezüglich der Folien bitte bei mir melden, wie bereits während des Workshops angesprochen.
