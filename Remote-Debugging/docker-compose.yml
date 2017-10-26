@@ -3,6 +3,7 @@ version: "3.1"
 services:
   web:
     build: .
+    image: dev-env:latest
     command: yarn debug
     volumes:
       - ./:/server
